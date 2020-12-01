@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "CR6Community-v2.0.7.2"
+#define SHORT_BUILD_VERSION "CR6-v2.0.7.2-no-runout"
 
 /**
  * Verbose version identifier which should contain a reference to the location
