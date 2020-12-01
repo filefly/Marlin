@@ -342,7 +342,7 @@ void DGUSCrealityDisplay_HandleReturnKeyEvent(DGUS_VP_Variable &var, void *val_p
         button_value = (button_value & 0xffU) << 8U | (button_value >> 8U);
 
         SERIAL_ECHOPAIR("Invoking handler for screen ", current_screen);
-        SERIAL_ECHOLNPAIR("with VP=", var.VP, " value=", button_value);
+        SERIAL_ECHOLNPAIR(" with VP=", var.VP, " value=", button_value);
 
         map->Handler(var, button_value);
         return;
